@@ -186,8 +186,6 @@ plt.subplot(2,1,1)
 D = hours
 plt.rc('xtick', labelsize=3)
 plt.xticks([])
-plt.rc('font',**{'family':'serif','serif':['Times']})
-plt.rc('text', usetex=True)
 graph=plt.bar(range(len(D)), list(D.values()), color='#a0e6ff', edgecolor='#c3d5e8', align='center')
 plt.ylim(0, 2500)
 plt.axhline(y=2000, linewidth=1, color='r')
