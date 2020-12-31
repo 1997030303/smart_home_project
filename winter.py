@@ -1,4 +1,3 @@
-import numpy as np
 import matplotlib.pyplot as plt
 
 #DECLARING PRODUCTS FOR POWER CONSUMPTIONS AND THEIR TIME OF USAGE
